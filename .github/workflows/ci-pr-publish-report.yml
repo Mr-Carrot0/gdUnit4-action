@@ -1,9 +1,9 @@
 name: 'Publish Test Report'
 on:
-  workflow_run:
-    workflows: ['ci-pr', 'ci-master']  # runs after workflows
-    types:
-      - completed
+#  workflow_run:
+#    workflows: ['ci-pr', 'ci-master']  # runs after workflows
+#    types:
+#      - completed
   workflow_dispatch:
     inputs:
       workflow_run_id:
